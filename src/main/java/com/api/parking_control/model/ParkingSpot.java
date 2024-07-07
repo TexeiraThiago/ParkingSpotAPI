@@ -7,7 +7,6 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
-
 @Component
 @Entity
 @Table(name = "TAB_PARKING_SPOT")
