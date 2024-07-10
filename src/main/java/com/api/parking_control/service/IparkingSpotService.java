@@ -16,7 +16,7 @@ public interface IparkingSpotService {
     boolean existByParkSpotNumber(String parkingSpotNumber);
     boolean existByApartmentAndBlock(String apartment, String block);
     Page<ParkingSpot> findAll(Pageable pageable);
-    public Optional<ParkingSpot> findById(UUID id);
-    public void delete(ParkingSpot parkingSpot);
+    Optional<ParkingSpot> findById(UUID id);
+    void delete(ParkingSpot parkingSpot);
 
 }
