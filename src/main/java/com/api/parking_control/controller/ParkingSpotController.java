@@ -2,10 +2,12 @@ package com.api.parking_control.controller;
 
 import com.api.parking_control.dto.ParkingSpotDTO;
 import com.api.parking_control.model.ParkingSpot;
-import com.api.parking_control.service.ParkingSpotService;
+import com.api.parking_control.service.IparkingSpotService;
+
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -25,7 +27,7 @@ import java.util.UUID;
 public class ParkingSpotController {
 
     @Autowired
-    ParkingSpotService parkingSpotService;
+    IparkingSpotService parkingSpotService;
     @Autowired
     ParkingSpot parkingSpotModel;
 

@@ -1,7 +1,8 @@
-package com.api.parking_control.service;
+package com.api.parking_control.service.implement;
 
 import com.api.parking_control.model.ParkingSpot;
 import com.api.parking_control.repository.ParkingSpotRepository;
+import com.api.parking_control.service.IparkingSpotService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -12,7 +13,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Service
-public class ParkingSpotService {
+public class ParkingSpotService implements IparkingSpotService {
 
     @Autowired
     ParkingSpotRepository parkingSpotRepository;
