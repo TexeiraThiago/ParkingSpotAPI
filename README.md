@@ -4,7 +4,7 @@ Create a simple CRUD using Springboot API
 
 ## Lessons Learned
 
-How to create a spring boot project with spring initializr Spring WEB, Spring Data JPA, with Docker and PostgreSQL applying the best pratices around mvc architecture to create a RESTful API with Global Custom Date and pageable methods.  
+How to create a spring boot project with spring initializr Spring WEB, Spring Data JPA, with Docker and PostgreSQL applying the best practices around mvc architecture to create a RESTful API with Global Custom Date and pageable methods.  
 
 ## Environment 
 - JDK 21
