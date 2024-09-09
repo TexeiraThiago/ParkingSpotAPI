@@ -24,7 +24,7 @@ How to create a spring boot project with spring initializr Spring WEB, Spring Da
 Clone the project
 
 ```bash
-  git clone https://github.com/TexeiraThiago/ParkingSpotAPI/pull/new/feature1
+  git clone https://github.com/TexeiraThiago/ParkingSpotAPI.git
 ```
 
 On Postman
